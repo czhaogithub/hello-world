@@ -17,3 +17,8 @@ df = pd.DataFrame({
     #Notice that one of these has the wrong data type!
 
 df.to_sql(name='books',con=cnx,if_exists='append',index=False)
+
+df.head()
+
+
+df.to_sql()
